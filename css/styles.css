@@ -113,19 +113,6 @@ a {
   flex-direction: column;
 }
 
-.notch {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100px;
-  height: 22px;
-  background: #111111;
-  border-radius: 0 0 14px 14px;
-  z-index: 10;
-  pointer-events: none;
-}
-
 .status-bar {
   height: 34px;
   flex-shrink: 0;

@@ -56,7 +56,7 @@ Unlike the original prototype where screen HTML was stored as JavaScript string 
 Interactive elements use `data-nav="[screenKey]"` attributes, decoupled from JavaScript function names.
 
 ### CSS
-* **`css/styles.css`**: Design tokens (`--red-600`, `--ink-900`, `--ai-600`, etc.), font definitions (`Barlow Condensed`, `Inter`, `JetBrains Mono`), centered viewport shell, and realistic mobile phone hardware chassis (notch, status bar, signal tag).
+* **`css/styles.css`**: Design tokens (`--red-600`, `--ink-900`, `--ai-600`, etc.), font definitions (`Barlow Condensed`, `Inter`, `JetBrains Mono`), centered viewport shell, and realistic mobile phone hardware chassis (status bar, signal tag).
 * **`css/components.css`**: Organized into distinct sections with visual banners: Buttons, Headers, Splash, SOS Button, AI Perception & Fusion, Emergency Categories, Maps, Confirmation Cards, Live Status Journey, Resolved Summary, and Relay Lockscreen Notification.
 * **`css/responsive.css`**: Responsive scaling for smaller screens and real mobile displays (fills viewport smoothly on phones without horizontal overflow) and honors `prefers-reduced-motion`.
 
@@ -107,7 +107,7 @@ src/
 ├── hooks/
 │   └── useNavigation.ts         # Navigation hook matching navigateTo()
 ├── components/
-│   ├── shell/PhoneFrame.tsx     # Notch, StatusBar, Screen viewport
+│   ├── shell/PhoneFrame.tsx     # StatusBar, Screen viewport
 │   ├── ui/Button.tsx
 │   └── ui/StatusBadge.tsx
 └── screens/
